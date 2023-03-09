@@ -38,8 +38,20 @@
 
 // Task 6.
 
+// Console.Write("Hello, friend. Enter your number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// if (num % 2 == 1) Console.Write("Your number is odd");
+// else Console.Write("Your number is even");
+
+// Task 8.
 Console.Write("Hello, friend. Enter your number: ");
 int num = Convert.ToInt32(Console.ReadLine());
 
-if (num % 2 == 1) Console.Write("Your number is odd");
-else Console.Write("Your number is even");
+int count = 1;
+
+while (2 * count <= num)
+{
+    Console.Write(2 * count + " ");
+    count++;
+}   

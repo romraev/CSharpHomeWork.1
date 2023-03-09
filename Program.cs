@@ -16,22 +16,30 @@
 
 // Task 4.
 
-Console.Write("Hello, friend. Enter first number: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Hello, friend. Enter first number: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Enter second number: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter second number: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
 
-Console.Write("Enter third number: ");
-int num3 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Enter third number: ");
+// int num3 = Convert.ToInt32(Console.ReadLine());
 
-if (num1 > num2) 
-{
-    if (num1 > num3) Console.Write("The maximum number is " + num1);
-    else Console.Write("The maximum number is " + num3);
-}
-else
-{
-    if (num2 > num3) Console.Write("The maximum number is " + num2);
-    else Console.Write("The maximum number is " + num3);
-}
+// if (num1 > num2) 
+// {
+//     if (num1 > num3) Console.Write("The maximum number is " + num1);
+//     else Console.Write("The maximum number is " + num3);
+// }
+// else
+// {
+//     if (num2 > num3) Console.Write("The maximum number is " + num2);
+//     else Console.Write("The maximum number is " + num3);
+// }
+
+// Task 6.
+
+Console.Write("Hello, friend. Enter your number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if (num % 2 == 1) Console.Write("Your number is odd");
+else Console.Write("Your number is even");
